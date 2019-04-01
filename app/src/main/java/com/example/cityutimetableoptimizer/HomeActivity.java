@@ -105,7 +105,8 @@ public class HomeActivity extends AppCompatActivity implements SelectableViewHol
 
                     database = FirebaseDatabase.getInstance();
                     myRef = database.getReference("selection");
-                    myRef.setValue(adapter.getSelection());
+                    String key = myRef.push().getKey();
+                    myRef.child(key).setValue(adapter.getSelection());
 
                     List<String> selectionAll_dayoff = getDayoff(adapter_dayoff.getDayoff());
                     toResult.putExtra("selection_dayoff", (Serializable) selectionAll_dayoff);
