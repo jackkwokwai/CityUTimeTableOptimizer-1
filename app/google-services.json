@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "1022086117489",
+    "firebase_url": "https://cityutimetableoptimizer.firebaseio.com",
+    "project_id": "cityutimetableoptimizer",
+    "storage_bucket": "cityutimetableoptimizer.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1022086117489:android:99334ddba3d0ea47",
+        "android_client_info": {
+          "package_name": "com.example.cityutimetableoptimizer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1022086117489-4lnkrf3o5jf4qvn83tpk8kfnncmiru62.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cityutimetableoptimizer",
+            "certificate_hash": "c7873b26e26f79e0b0b37b2378c02d31488135d9"
+          }
+        },
+        {
+          "client_id": "1022086117489-m85c31evhqdj2otspkedmovs9pds961o.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA22skzqY3iywyOfGJZqMIz51QSqmZ_VDw"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1022086117489-m85c31evhqdj2otspkedmovs9pds961o.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

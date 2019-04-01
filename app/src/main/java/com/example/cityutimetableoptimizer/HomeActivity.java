@@ -10,6 +10,8 @@ import android.widget.Button;
 import android.widget.Toast;
 import android.support.v7.widget.LinearLayoutManager;
 import android.support.v7.widget.RecyclerView;
+
+
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStream;
@@ -20,6 +22,10 @@ import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+
+import com.google.firebase.FirebaseApp;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
 
 public class HomeActivity extends AppCompatActivity implements SelectableViewHolder.OnItemSelectedListener, DayoffViewHolder.OnItemSelectedListener {
@@ -38,11 +44,15 @@ public class HomeActivity extends AppCompatActivity implements SelectableViewHol
     RecyclerView recyclerView_dayoff;
     DayoffAdapter adapter_dayoff;
 
+    FirebaseDatabase database;
+    DatabaseReference myRef;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
+
+        FirebaseApp.initializeApp(this);
 
         // courses: List<Course>, read csv file
         courses = readFile();
@@ -92,6 +102,11 @@ public class HomeActivity extends AppCompatActivity implements SelectableViewHol
                 else if (adapter.getSelection().size() < 7){
                     Map<String, List<Course>> selectionAll = getCourses(adapter.getSelection(), courses);
                     toResult.putExtra("selection", (Serializable) selectionAll);
+
+                    database = FirebaseDatabase.getInstance();
+                    myRef = database.getReference("selection");
+                    myRef.setValue(adapter.getSelection());
+
                     List<String> selectionAll_dayoff = getDayoff(adapter_dayoff.getDayoff());
                     toResult.putExtra("selection_dayoff", (Serializable) selectionAll_dayoff);
                     startActivity(toResult);

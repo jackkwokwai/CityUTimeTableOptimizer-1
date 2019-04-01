@@ -916,6 +916,15 @@
 
         </TableLayout>
 
+        <TextView
+            android:id="@+id/selectionDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Course Details"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
     </LinearLayout>
 
 

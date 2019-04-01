@@ -121,7 +121,7 @@ public class ResultActivity extends AppCompatActivity {
     TextView f_22;
     TextView s_22;
 
-
+    TextView courseDetails;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -226,6 +226,8 @@ public class ResultActivity extends AppCompatActivity {
         f_22 = findViewById(R.id.f_22);
         s_22 = findViewById(R.id.s_22);
 
+        courseDetails = findViewById(R.id.selectionDetails);
+
         Intent toResult = getIntent();
         List<String> selection_dayoff = (List<String>) toResult.getSerializableExtra("selection_dayoff");
         Log.v("Day off:", String.valueOf(selection_dayoff));
@@ -284,7 +286,7 @@ public class ResultActivity extends AppCompatActivity {
 
         Map<String, List<String>> displayTable = getDisplayTable(timeTable);
 
-        display(displayTable);
+        display(displayTable, timeTable);
 
         genNext(resultTable);
 
@@ -304,7 +306,7 @@ public class ResultActivity extends AppCompatActivity {
             public void onClick(View v) {
                 ArrayList<Course> mtimeTable = getTimeTable(mResultTable, result_position);
                 Map<String, List<String>> displayTable = getDisplayTable(mtimeTable);
-                display(displayTable);
+                display(displayTable, mtimeTable);
                 result_position--;
                 if (getTimeTable(mResultTable, result_position).isEmpty()){
                     result_position = 0;
@@ -327,7 +329,7 @@ public class ResultActivity extends AppCompatActivity {
 
                 ArrayList<Course> mtimeTable = getTimeTable(mResultTable, result_position);
                 Map<String, List<String>> displayTable = getDisplayTable(mtimeTable);
-                display(displayTable);
+                display(displayTable, mtimeTable);
                 result_position++;
                 if (getTimeTable(mResultTable, result_position).isEmpty()){
                     result_position = 0;
@@ -336,7 +338,7 @@ public class ResultActivity extends AppCompatActivity {
         });
     }
 
-    public void display(Map<String, List<String>> displayTable){
+    public void display(Map<String, List<String>> displayTable, ArrayList<Course> timeTable){
 
         try {
             m_9.setText(displayTable.get("M").get(0));
@@ -428,6 +430,12 @@ public class ResultActivity extends AppCompatActivity {
             s_20.setText(displayTable.get("S").get(11));
             s_21.setText(displayTable.get("S").get(12));
             s_22.setText(displayTable.get("S").get(13));
+
+            courseDetails.setText("Details");
+
+            for (Course c : timeTable){
+                    courseDetails.append("\n" + c);
+            }
         } catch (Exception e) {
             e.printStackTrace();
         }
