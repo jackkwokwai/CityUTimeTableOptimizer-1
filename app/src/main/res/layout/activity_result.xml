@@ -1,0 +1,922 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/generate_prev"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Previous" />
+
+        <Button
+            android:id="@+id/generate_next"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Next" />
+
+        <TextView
+            android:id="@+id/selectionMaster"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="Result"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <TableLayout
+            android:id="@+id/table_timetable"
+            android:layout_width="fill_parent"
+            android:layout_height="557dp"
+            android:stretchColumns="*">
+
+            <TableRow
+                android:id="@+id/row_header"
+                android:layout_width="367dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/border">
+
+                <TextView
+                    android:layout_width="62dp"
+                    android:layout_height="51dp"
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:text="Time"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:layout_width="61dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:padding="5dp"
+                    android:text="Mon"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:layout_width="62dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:padding="5dp"
+                    android:text="Tue"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:layout_width="63dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:padding="5dp"
+                    android:text="Wed"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:padding="5dp"
+                    android:text="Thu"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:layout_width="150px"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:padding="5dp"
+                    android:text="Fri"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:layout_width="150px"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:padding="5dp"
+                    android:text="Sat"
+                    android:textAlignment="center" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/row_9"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/border"
+                android:stretchColumns="*">
+
+                <TextView
+                    android:layout_height="32dp"
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:text="9:00"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/m_9"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:textAlignment="center" />
+
+
+                <TextView
+                    android:id="@+id/t_9"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/w_9"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/r_9"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/f_9"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/s_9"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:textAlignment="center" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/row_10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/border"
+                android:stretchColumns="*">
+
+                <TextView
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:text="10:00"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/m_10"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/t_10"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/w_10"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/r_10"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/f_10"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/s_10"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:textAlignment="center" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/row_11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/border"
+                android:stretchColumns="*">
+
+                <TextView
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:text="11:00"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/m_11"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/t_11"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/w_11"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/r_11"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/f_11"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/s_11"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:textAlignment="center" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/row_12"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/border"
+                android:stretchColumns="*">
+
+                <TextView
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:text="12:00"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/m_12"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/t_12"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/w_12"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:textAlignment="center" />
+
+
+                <TextView
+                    android:id="@+id/r_12"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/f_12"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/s_12"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:textAlignment="center" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/row_13"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/border"
+                android:stretchColumns="*">
+
+                <TextView
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:text="13:00"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/m_13"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/t_13"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/w_13"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/r_13"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/f_13"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/s_13"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:textAlignment="center" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/row_14"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/border"
+                android:stretchColumns="*">
+
+                <TextView
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:text="14:00"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/m_14"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/t_14"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/w_14"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/r_14"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/f_14"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/s_14"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:textAlignment="center" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/row_15"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/border"
+                android:stretchColumns="*">
+
+                <TextView
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:text="15:00"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/m_15"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/t_15"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/w_15"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/r_15"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/f_15"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/s_15"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:textAlignment="center" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/row_16"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/border"
+                android:stretchColumns="*">
+
+                <TextView
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:text="16:00"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/m_16"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/t_16"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/w_16"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/r_16"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/f_16"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/s_16"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:textAlignment="center" />
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/row_17"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/border"
+                android:stretchColumns="*">
+
+                <TextView
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:text="17:00"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/m_17"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/t_17"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/w_17"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/r_17"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/f_17"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/s_17"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:textAlignment="center" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/row_18"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/border"
+                android:stretchColumns="*">
+
+                <TextView
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:text="18:00"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/m_18"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/t_18"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/w_18"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/r_18"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/f_18"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/s_18"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:textAlignment="center" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/row_19"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/border"
+                android:stretchColumns="*">
+
+                <TextView
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:text="19:00"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/m_19"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/t_19"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/w_19"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/r_19"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/f_19"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/s_19"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:textAlignment="center" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/row_20"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/border"
+                android:stretchColumns="*">
+
+                <TextView
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:text="20:00"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/m_20"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/t_20"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/w_20"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/r_20"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/f_20"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/s_20"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:textAlignment="center" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/row_21"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/border"
+                android:stretchColumns="*">
+
+                <TextView
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:text="21:00"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/m_21"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/t_21"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/w_21"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/r_21"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/f_21"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/s_21"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:textAlignment="center" />
+
+
+            </TableRow>
+
+            <TableRow
+                android:id="@+id/row_22"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/border"
+                android:stretchColumns="*">
+
+                <TextView
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:text="22:00"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/m_22"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/t_22"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/w_22"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/r_22"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/f_22"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:textAlignment="center" />
+
+                <TextView
+                    android:id="@+id/s_22"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/border"
+                    android:padding="7dp"
+                    android:textAlignment="center" />
+
+
+            </TableRow>
+
+
+        </TableLayout>
+
+    </LinearLayout>
+
+
+</ScrollView>
