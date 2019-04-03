@@ -922,7 +922,7 @@
             android:layout_height="wrap_content"
             android:padding="10dp"
             android:text="Course Details"
-            android:textSize="15sp"
+            android:textSize="14sp"
             android:textStyle="bold" />
 
     </LinearLayout>
