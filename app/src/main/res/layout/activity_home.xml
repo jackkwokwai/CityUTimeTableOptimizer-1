@@ -29,10 +29,8 @@
 
     <Button
         android:id="@+id/btnOpt"
-        android:layout_width="195dp"
+        android:layout_width="205dp"
         android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/button"
-        android:layout_alignLeft="@+id/button"
         android:layout_alignParentRight="true"
         android:layout_marginStart="216dp"
         android:layout_marginLeft="216dp"
@@ -40,8 +38,8 @@
         android:text="Generate" />
 
     <Button
-        android:id="@+id/button"
-        android:layout_width="182dp"
+        android:id="@+id/btnClear"
+        android:layout_width="205dp"
         android:layout_height="wrap_content"
         android:text="Clear" />
 

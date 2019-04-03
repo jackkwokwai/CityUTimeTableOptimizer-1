@@ -9,17 +9,22 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <Button
-            android:id="@+id/generate_prev"
+        <TableRow
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Previous" />
+            android:layout_height="match_parent" >
 
-        <Button
-            android:id="@+id/generate_next"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Next" />
+            <Button
+                android:id="@+id/generate_prev"
+                android:layout_width="205dp"
+                android:layout_height="wrap_content"
+                android:text="Previous" />
+
+            <Button
+                android:id="@+id/generate_next"
+                android:layout_width="205dp"
+                android:layout_height="wrap_content"
+                android:text="Next" />
+        </TableRow>
 
         <TextView
             android:id="@+id/selectionMaster"
@@ -33,7 +38,7 @@
         <TableLayout
             android:id="@+id/table_timetable"
             android:layout_width="fill_parent"
-            android:layout_height="557dp"
+            android:layout_height="519dp"
             android:stretchColumns="*">
 
             <TableRow

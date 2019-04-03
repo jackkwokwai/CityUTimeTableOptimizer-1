@@ -37,6 +37,7 @@ public class HomeActivity extends AppCompatActivity implements SelectableViewHol
     private List<Dayoff> dayOff = new ArrayList<>();
 
     public Button btnOpt;
+    public Button btnClear;
 
     RecyclerView recyclerView;
     SelectableAdapter adapter;
@@ -89,6 +90,8 @@ public class HomeActivity extends AppCompatActivity implements SelectableViewHol
     public void btnInit() {
         btnOpt = (Button) findViewById(R.id.btnOpt);
 
+        btnClear = (Button) findViewById(R.id.btnClear);
+
         btnOpt.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -117,6 +120,23 @@ public class HomeActivity extends AppCompatActivity implements SelectableViewHol
                             Toast.LENGTH_LONG).show();
                 }
 
+            }
+        });
+
+        btnClear.setOnClickListener(new View.OnClickListener(){
+            @Override
+            public void onClick(View v){
+                courseMaster.clear();
+                courseMaster = getCourseMaster(courseMaster_s);
+                adapter = new SelectableAdapter(courseMaster, HomeActivity.this);
+                recyclerView.setAdapter(adapter);
+                adapter.notifyDataSetChanged();
+
+                dayOff.clear();
+                dayOff = getDayoffMaster();
+                adapter_dayoff = new DayoffAdapter(dayOff, HomeActivity.this);
+                recyclerView_dayoff.setAdapter(adapter_dayoff);
+                adapter_dayoff.notifyDataSetChanged();
             }
         });
     }
