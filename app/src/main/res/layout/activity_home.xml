@@ -6,12 +6,12 @@
     android:layout_height="match_parent"
     tools:context=".HomeActivity">
 
-    <Button
+    <!--<Button
         android:id="@+id/btnOpt"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentRight="true"
-        android:text="Optimize!" />
+        android:text="Generate timetable" />-->
 
     <android.support.v7.widget.RecyclerView
         android:id="@+id/dayOff_list"
@@ -26,6 +26,24 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:layout_below="@id/dayOff_list"/>
+
+    <Button
+        android:id="@+id/btnOpt"
+        android:layout_width="195dp"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/button"
+        android:layout_alignLeft="@+id/button"
+        android:layout_alignParentRight="true"
+        android:layout_marginStart="216dp"
+        android:layout_marginLeft="216dp"
+        android:layout_marginRight="0dp"
+        android:text="Generate" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="182dp"
+        android:layout_height="wrap_content"
+        android:text="Clear" />
 
 
 </RelativeLayout>
