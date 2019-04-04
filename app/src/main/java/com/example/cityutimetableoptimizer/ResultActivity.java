@@ -652,8 +652,10 @@ public class ResultActivity extends AppCompatActivity {
             }
         } else {
             for (ArrayList<Course> s : comTable) {
-                if (check(s) == true)
-                {
+                if (s.size() == 1){
+                    optTable.add(s);
+                }
+                else if (check(s)){
                     optTable.add(s);
                 }
             }
@@ -669,7 +671,6 @@ public class ResultActivity extends AppCompatActivity {
         }
 
         return optTable;
-
     }
 
 
