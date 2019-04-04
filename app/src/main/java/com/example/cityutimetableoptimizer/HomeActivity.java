@@ -1,10 +1,15 @@
 package com.example.cityutimetableoptimizer;
 
 
+import android.content.DialogInterface;
 import android.content.Intent;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
@@ -297,6 +302,50 @@ public class HomeActivity extends AppCompatActivity implements SelectableViewHol
         return new Course(courseCode, crn, section, day, time);
     }
 
+    /** Created by Mat, alertDialog **/
+    @Override
+    public void onBackPressed()
+    {
+        AlertDialog.Builder builder = new AlertDialog.Builder(HomeActivity.this);
+
+        builder.setTitle("Exit Confirmation")
+                .setMessage("Are you sure?")
+                .setPositiveButton("Ok", new DialogInterface.OnClickListener(){
+                    @Override
+                    public void onClick(DialogInterface dialog, int which) {
+                        HomeActivity.super.onBackPressed();
+                    }
+                })
+                .setNegativeButton("Cancel", null);
+        AlertDialog alert = builder.create();
+        alert.show();
+    }
+
+    public void showdialog(View view)
+    {
+        //Toast.makeText(this,"clickme",Toast.LENGTH_LONG).show();
+        AlertDialog.Builder alertdialogbuilder=new AlertDialog.Builder(this);
+        alertdialogbuilder.setMessage("1) Choose the day off options \n2) Pick the courses from list");
+        AlertDialog alertdialog1=alertdialogbuilder.create();
+        alertdialog1.show();
+    }
+
+    private DialogInterface.OnClickListener click1=new DialogInterface.OnClickListener()
+    {
+        @Override
+        public void onClick(DialogInterface arg0,int arg1)
+        {
+            android.os.Process.killProcess(android.os.Process.myPid());
+        }
+    };
+    private DialogInterface.OnClickListener click2=new DialogInterface.OnClickListener()
+    {@Override
+
+    public void onClick(DialogInterface arg0,int arg1)
+    {
+        arg0.cancel();
+    }
+    };
 
 }
 
