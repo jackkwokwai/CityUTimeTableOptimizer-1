@@ -9,13 +9,15 @@ public class Course implements java.io.Serializable {
     private String section;
     private String day;
     private String time;
+    private String courseName;
 
-    public Course(String courseCode, String crn, String section, String day, String time) {
+    public Course(String courseCode, String crn, String section, String day, String time, String courseName) {
         this.courseCode = courseCode;
         this.crn = crn;
         this.section = section;
         this.day = day;
         this.time = time;
+        this.courseName = courseName;
     }
 
     public String getCourseCode() {
@@ -58,6 +60,9 @@ public class Course implements java.io.Serializable {
         return timeFrame;
     }
 
+    public String getCourseName() {
+        return courseName;
+    }
 
     public String toString() {
         return courseCode + " " + crn + " " + section + " " + day + " " + time;

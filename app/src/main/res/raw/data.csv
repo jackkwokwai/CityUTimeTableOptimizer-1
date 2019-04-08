@@ -1,38 +1,63 @@
-Course,CRN,Section,Credit,Campus,WEB,Level,Avail,Cap,WaitlistAvail,Date,Day,Time,Bldg,Room,Instructor,Medium ofInstruction
-IS2240,16909,S01,3,Main Campus ,Y,  B      ,:1,64,N,14/01/2019 - 27/04/2019,M,12:00 - 14:50,LAU,7-209,"XU Jingjun D., KWON Juhee",English
-IS2240,17797,S02,3,Main Campus ,Y,  B      ,:Full,50,N,14/01/2019 - 27/04/2019,W,09:00 - 11:50,LAU,7-218,"XU Jingjun D., KWON Juhee",English
-IS2240,17972,SA1,3,Main Campus ,Y,  B      ,:1,14,N,14/01/2019 - 27/04/2019,W,09:00 - 11:50,LAU,7-218,"XU Jingjun D., KWON Juhee",English
-IS2502,10825,C01,3,Main Campus ,Y,  B      ,:2,80,N,14/01/2019 - 27/04/2019,W,17:00 - 18:50,YEUNG,LT-6,LIU Ben,English
-IS2502,16869,CA1,3,Main Campus ,Y,  B      ,:19,80,N,14/01/2019 - 27/04/2019,W,17:00 - 18:50,YEUNG,LT-6,LIU Ben,English
-IS2502,16870,L01,0,Main Campus ,Y,  B      ,:1,40,N,14/01/2019 - 27/04/2019,F,14:00 - 14:50,LAU,7-211,LIU Ben,English
-IS2502,16871,L02,0,Main Campus ,Y,  B      ,:1,40,N,14/01/2019 - 27/04/2019,F,10:00 - 10:50,LAU,7-211,CHEUNG Yip Keung,English
-IS2502,16872,LA1,0,Main Campus ,Y,  B      ,:3,40,N,14/01/2019 - 27/04/2019,F,16:00 - 16:50,LAU,7-209,CHEUNG Yip Keung,English
-IS2502,16873,LA2,0,Main Campus ,Y,  B      ,:16,40,N,14/01/2019 - 27/04/2019,F,15:00 - 15:50,LAU,7-211,CHEUNG Yip Keung,English
-IS2505,13094,C01,3,Main Campus ,Y,  B      ,:32,160,N,14/01/2019 - 27/04/2019,M,09:00 - 10:50,YEUNG,LT-2,HO Kin Hon,English
-IS2505,16874,CA1,3,Main Campus ,Y,  B      ,:8,40,N,14/01/2019 - 27/04/2019,M,09:00 - 10:50,YEUNG,LT-2,HO Kin Hon,English
-IS2505,15221,L01,0,Main Campus ,Y,  B      ,:Full,40,N,14/01/2019 - 27/04/2019,W,16:00 - 16:50,LAU,7-211,HO Kin Hon,English
-IS2505,15222,L02,0,Main Campus ,Y,  B      ,:1,40,N,14/01/2019 - 27/04/2019,R,11:00 - 11:50,LAU,7-211,KONG Joseph S L,English
-IS2505,15223,L03,0,Main Campus ,Y,  B      ,:1,40,N,14/01/2019 - 27/04/2019,F,11:00 - 11:50,LAU,7-211,KONG Joseph S L,English
-IS2505,16875,L04,0,Main Campus ,Y,  B      ,:29,40,N,14/01/2019 - 27/04/2019,F,15:00 - 15:50,LAU,7-209,KONG Joseph S L,English
-IS2505,16876,LA1,0,Main Campus ,Y,  B      ,:9,40,N,14/01/2019 - 27/04/2019,W,18:00 - 18:50,LAU,7-209,KONG Joseph S L,English
-IS3430,10948,C01,3,Main Campus ,Y,  B      ,:24,120,N,14/01/2019 - 27/04/2019,M,17:00 - 17:50,YEUNG,LT-11,"TIAN Yuyang, JIANG Ruixiang",English
-IS3430,12706,C02,3,Main Campus ,Y,  B      ,:Ful1l,120,N,14/01/2019 - 27/04/2019,M,11:00 - 11:50,YEUNG,LT-8,"JIANG Ruixiang, TIAN Yuyang",English
-IS3430,10949,L01,0,Main Campus ,Y,  B      ,:Ful1l,40,N,14/01/2019 - 27/04/2019,T,12:00 - 13:50,LAU,7-209,TANG Chung Man,English
-IS3430,10950,L02,0,Main Campus ,Y,  B      ,:2,40,N,14/01/2019 - 27/04/2019,R,09:00 - 10:50,LAU,7-211,TANG Chung Man,English
-IS3430,10951,L03,0,Main Campus ,Y,  B      ,:Ful1l,40,N,14/01/2019 - 27/04/2019,R,15:00 - 16:50,LAU,7-211,TANG Chung Man,English
-IS3430,10952,L04,0,Main Campus ,Y,  B      ,:19,40,N,14/01/2019 - 27/04/2019,W,17:00 - 18:50,LAU,7-211,HUANG Wenjie,English
-IS3430,10953,L05,0,Main Campus ,Y,  B      ,:1,40,N,14/01/2019 - 27/04/2019,F,09:00 - 10:50,LAU,7-209,JIANG Ruixiang,English
-IS3430,11301,L06,0,Main Campus ,Y,  B      ,:2,40,N,14/01/2019 - 27/04/2019,R,13:00 - 14:50,LAU,7-211,TANG Chung Man,English
-IS4032,11630,S01,3,Main Campus ,Y,  B      ,:33,80,N,14/01/2019 - 27/04/2019,M,15:00 - 17:50,LI,4307,CHUNG Yan Kit A.,English
-IS4246,12707,S01,3,Main Campus ,Y,  B      ,:12,80,N,14/01/2019 - 27/04/2019,W,12:00 - 14:50,LI,4412,FUNG HONG Chia Min,English
-IS4335,16880,C01,3,Main Campus ,Y,  B      ,:25,80,N,14/01/2019 - 27/04/2019,M,11:00 - 11:50,YEUNG,LT-3,LU Angela,English
-IS4335,16882,L01,0,Main Campus ,Y,  B      ,:4,40,N,14/01/2019 - 27/04/2019,M,12:00 - 13:50,LAU,7-211,LU Angela,English
-IS4335,16883,L02,0,Main Campus ,Y,  B      ,:21,40,N,14/01/2019 - 27/04/2019,W,09:00 - 10:50,LAU,7-211,CHEUNG Yip Keung,English
-IS4537,12744,S01,3,Main Campus ,Y,  B      ,:29,64,N,14/01/2019 - 27/04/2019,F,12:00 - 14:50,LAU,7-209,TSE Woon Kwan D.,English
-IS4538,10393,S01,3,Main Campus ,Y,  B      ,:1,80,N,14/01/2019 - 27/04/2019,R,12:00 - 14:50,LI,4307,BANDYOPADHYAY R.,English
-IS4543,13106,S01,3,Main Campus ,Y,  B      ,:36,80,N,14/01/2019 - 27/04/2019,R,12:00 - 14:50,LI,4412,YU Kwok Mei J.,English
-IS4546,10403,S01,3,Main Campus ,Y,  B      ,:FULL,63,N,14/01/2019 - 27/04/2019,M,15:00 - 17:50,LAU,7-209,HO Kin Hon,English
-IS4632,13166,S01,3,Main Campus ,Y,  B      ,:65,80,N,14/01/2019 - 27/04/2019,W,16:00 - 18:50,YEUNG,G4302,LU Angela,English
-IS4636,10955,S01,3,Main Campus ,Y,  B      ,:34,80,N,14/01/2019 - 27/04/2019,F,13:00 - 15:50,LI,4307,FUNG HONG Chia Min,English
-IS4837,12315,S01,3,Main Campus ,Y,  B      ,:18,64,N,14/01/2019 - 27/04/2019,R,12:00 - 14:50,LAU,7-209,ZHU Yan Julie,English
-IS4940,16879,S01,3,Main Campus ,Y,  B      ,:68,80,N,14/01/2019 - 27/04/2019,M,09:00 - 11:50,LI,4307,CHUNG Yan Kit A.,English
+﻿Course,CRN,Section,Credit,Campus,WEB,Level,Avail,Cap,WaitlistAvail,Date,Day,Time,Bldg,Room,Instructor,Medium ofInstruction,CourseName
+IS2240,16909,S01,3,Main Campus ,Y,  B      ,:1,64,N,14/01/2019 - 27/04/2019,M,12:00 - 14:50,LAU,7-209,"XU Jingjun D. KWON Juhee",English,Python Programming for Business
+IS2240,17797,S02,3,Main Campus ,Y,  B      ,:Full,50,N,14/01/2019 - 27/04/2019,W,09:00 - 11:50,LAU,7-218,"XU Jingjun D. KWON Juhee",English,Python Programming for Business
+IS2240,17972,SA1,3,Main Campus ,Y,  B      ,:1,14,N,14/01/2019 - 27/04/2019,W,09:00 - 11:50,LAU,7-218,"XU Jingjun D. KWON Juhee",English,Python Programming for Business
+IS2502,10825,C01,3,Main Campus ,Y,  B      ,:2,80,N,14/01/2019 - 27/04/2019,W,17:00 - 18:50,YEUNG,LT-6,LIU Ben,English,Social Media and Social Networks
+IS2502,16869,CA1,3,Main Campus ,Y,  B      ,:19,80,N,14/01/2019 - 27/04/2019,W,17:00 - 18:50,YEUNG,LT-6,LIU Ben,English,Social Media and Social Networks
+IS2502,16870,L01,0,Main Campus ,Y,  B      ,:1,40,N,14/01/2019 - 27/04/2019,F,14:00 - 14:50,LAU,7-211,LIU Ben,English,Social Media and Social Networks
+IS2502,16871,L02,0,Main Campus ,Y,  B      ,:1,40,N,14/01/2019 - 27/04/2019,F,10:00 - 10:50,LAU,7-211,CHEUNG Yip Keung,English,Social Media and Social Networks
+IS2502,16872,LA1,0,Main Campus ,Y,  B      ,:3,40,N,14/01/2019 - 27/04/2019,F,16:00 - 16:50,LAU,7-209,CHEUNG Yip Keung,English,Social Media and Social Networks
+IS2502,16873,LA2,0,Main Campus ,Y,  B      ,:16,40,N,14/01/2019 - 27/04/2019,F,15:00 - 15:50,LAU,7-211,CHEUNG Yip Keung,English,Social Media and Social Networks
+IS2505,13094,C01,3,Main Campus ,Y,  B      ,:32,160,N,14/01/2019 - 27/04/2019,M,09:00 - 10:50,YEUNG,LT-2,HO Kin Hon,English,e-Business
+IS2505,16874,CA1,3,Main Campus ,Y,  B      ,:8,40,N,14/01/2019 - 27/04/2019,M,09:00 - 10:50,YEUNG,LT-2,HO Kin Hon,English,e-Business
+IS2505,15221,L01,0,Main Campus ,Y,  B      ,:Full,40,N,14/01/2019 - 27/04/2019,W,16:00 - 16:50,LAU,7-211,HO Kin Hon,English,e-Business
+IS2505,15222,L02,0,Main Campus ,Y,  B      ,:1,40,N,14/01/2019 - 27/04/2019,R,11:00 - 11:50,LAU,7-211,KONG Joseph S L,English,e-Business
+IS2505,15223,L03,0,Main Campus ,Y,  B      ,:1,40,N,14/01/2019 - 27/04/2019,F,11:00 - 11:50,LAU,7-211,KONG Joseph S L,English,e-Business
+IS2505,16875,L04,0,Main Campus ,Y,  B      ,:29,40,N,14/01/2019 - 27/04/2019,F,15:00 - 15:50,LAU,7-209,KONG Joseph S L,English,e-Business
+IS2505,16876,LA1,0,Main Campus ,Y,  B      ,:9,40,N,14/01/2019 - 27/04/2019,W,18:00 - 18:50,LAU,7-209,KONG Joseph S L,English,e-Business
+IS3430,10948,C01,3,Main Campus ,Y,  B      ,:24,120,N,14/01/2019 - 27/04/2019,M,17:00 - 17:50,YEUNG,LT-11,"TIAN Yuyang JIANG Ruixiang",English,Systems Analysis and Design
+IS3430,12706,C02,3,Main Campus ,Y,  B      ,:Ful1l,120,N,14/01/2019 - 27/04/2019,M,11:00 - 11:50,YEUNG,LT-8,"JIANG Ruixiang TIAN Yuyang",English,Systems Analysis and Design
+IS3430,10949,L01,0,Main Campus ,Y,  B      ,:Ful1l,40,N,14/01/2019 - 27/04/2019,T,12:00 - 13:50,LAU,7-209,TANG Chung Man,English,Systems Analysis and Design
+IS3430,10950,L02,0,Main Campus ,Y,  B      ,:2,40,N,14/01/2019 - 27/04/2019,R,09:00 - 10:50,LAU,7-211,TANG Chung Man,English,Systems Analysis and Design
+IS3430,10951,L03,0,Main Campus ,Y,  B      ,:Ful1l,40,N,14/01/2019 - 27/04/2019,R,15:00 - 16:50,LAU,7-211,TANG Chung Man,English,Systems Analysis and Design
+IS3430,10952,L04,0,Main Campus ,Y,  B      ,:19,40,N,14/01/2019 - 27/04/2019,W,17:00 - 18:50,LAU,7-211,HUANG Wenjie,English,Systems Analysis and Design
+IS3430,10953,L05,0,Main Campus ,Y,  B      ,:1,40,N,14/01/2019 - 27/04/2019,F,09:00 - 10:50,LAU,7-209,JIANG Ruixiang,English,Systems Analysis and Design
+IS3430,11301,L06,0,Main Campus ,Y,  B      ,:2,40,N,14/01/2019 - 27/04/2019,R,13:00 - 14:50,LAU,7-211,TANG Chung Man,English,Systems Analysis and Design
+IS4032,11630,S01,3,Main Campus ,Y,  B      ,:33,80,N,14/01/2019 - 27/04/2019,M,15:00 - 17:50,LI,4307,CHUNG Yan Kit A.,English,Mobile Apps
+IS4246,12707,S01,3,Main Campus ,Y,  B      ,:12,80,N,14/01/2019 - 27/04/2019,W,12:00 - 14:50,LI,4412,FUNG HONG Chia Min,English,Digital Marketing and Customer Relationship Management
+IS4335,16880,C01,3,Main Campus ,Y,  B      ,:25,80,N,14/01/2019 - 27/04/2019,M,11:00 - 11:50,YEUNG,LT-3,LU Angela,English,Data Visualization
+IS4335,16882,L01,0,Main Campus ,Y,  B      ,:4,40,N,14/01/2019 - 27/04/2019,M,12:00 - 13:50,LAU,7-211,LU Angela,English,Data Visualization
+IS4335,16883,L02,0,Main Campus ,Y,  B      ,:21,40,N,14/01/2019 - 27/04/2019,W,09:00 - 10:50,LAU,7-211,CHEUNG Yip Keung,English,Data Visualization
+IS4537,12744,S01,3,Main Campus ,Y,  B      ,:29,64,N,14/01/2019 - 27/04/2019,F,12:00 - 14:50,LAU,7-209,TSE Woon Kwan D.,English,Information Systems Audit
+IS4538,10393,S01,3,Main Campus ,Y,  B      ,:1,80,N,14/01/2019 - 27/04/2019,R,12:00 - 14:50,LI,4307,BANDYOPADHYAY R.,English,O2O Services
+IS4543,13106,S01,3,Main Campus ,Y,  B      ,:36,80,N,14/01/2019 - 27/04/2019,R,12:00 - 14:50,LI,4412,YU Kwok Mei J.,English,Risk Management and Information Systems Control
+IS4546,10403,S01,3,Main Campus ,Y,  B      ,:FULL,63,N,14/01/2019 - 27/04/2019,M,15:00 - 17:50,LAU,7-209,HO Kin Hon,English,Social Legal and Ethical Issues of the Internet
+IS4632,13166,S01,3,Main Campus ,Y,  B      ,:65,80,N,14/01/2019 - 27/04/2019,W,16:00 - 18:50,YEUNG,G4302,LU Angela,English,Global Business Systems Strategy and Tactical Management
+IS4636,10955,S01,3,Main Campus ,Y,  B      ,:34,80,N,14/01/2019 - 27/04/2019,F,13:00 - 15:50,LI,4307,FUNG HONG Chia Min,English,Business Process and Service Management
+IS4837,12315,S01,3,Main Campus ,Y,  B      ,:18,64,N,14/01/2019 - 27/04/2019,R,12:00 - 14:50,LAU,7-209,ZHU Yan Julie,English,Delivery Systems for Financial Services
+IS4940,16879,S01,3,Main Campus ,Y,  B      ,:68,80,N,14/01/2019 - 27/04/2019,M,09:00 - 11:50,LI,4307,CHUNG Yan Kit A.,English,Global Technology Entrepreneurship and Innovation
+CB2011,12676,C01,3,Main Campus ,Y,B ,10,75,N,14/01/2019 - 27/04/2019,S,13:00 - 15:50,LI,4412,WONG Hong Ming Louie,English,Solving Business Problems with Spreadsheet Modeling
+CB2011,13017,C02,3,Main Campus ,Y,B ,13,75,N,14/01/2019 - 27/04/2019,S,09:00 - 11:50,LI,4412,WONG Hong Ming Louie,English,Solving Business Problems with Spreadsheet Modeling
+CB2011,12619,C03,3,Main Campus ,Y,B ,Full,75,N,14/01/2019 - 27/04/2019,M,09:00 - 11:50,LI,4412,WONG Hong Ming Louie,English,Solving Business Problems with Spreadsheet Modeling
+CB2011,13018,C05,3,Main Campus ,Y,B ,8,75,N,14/01/2019 - 27/04/2019,S,12:00 - 14:50,LI,4307,CHAN Chun Man,English,Solving Business Problems with Spreadsheet Modeling
+CB2011,15088,CA1,3,Main Campus ,Y,B ,10,50,N,14/01/2019 - 27/04/2019,T,09:00 - 11:50,LI,G600,TSANG Oi Sze S.,English,Solving Business Problems with Spreadsheet Modeling
+CB2011,18035,CM3,3,Main Campus ,Y,B ,1,5,N,14/01/2019 - 27/04/2019,M,09:00 - 11:50,LI,4412,WONG Hong Ming Louie,English,Solving Business Problems with Spreadsheet Modeling
+CB2011,18037,CM5,3,Main Campus ,Y,B ,4,5,N,14/01/2019 - 27/04/2019,S,12:00 - 14:50,LI,4307,CHAN Chun Man,English,Solving Business Problems with Spreadsheet Modeling
+CB2021,14163,S01,3,Main Campus ,Y,B ,2,80,N,14/01/2019 - 27/04/2019,W,16:00 - 18:50,LI,G600,TSE Woon Kwan D.,English,Big Data Management
+CB2021,15220,S02,3,Main Campus ,Y,B ,1,69,N,14/01/2019 - 27/04/2019,W,12:00 - 14:50,LI,4109,TSE Woon Kwan D.,English,Big Data Management
+CB2022,14164,S01,3,Main Campus ,Y,B ,Full,80,N,14/01/2019 - 27/04/2019,W,09:00 - 11:50,LI,4307,"ZHU Yan Julie LAU Tania Y.",English,Business Programming with Spreadsheet
+CB2022,14621,S02,3,Main Campus ,Y,B ,2,80,N,14/01/2019 - 27/04/2019,T,09:00 - 11:50,LI,4412,"LAU Tania Y. ZHU Yan Julie",English,Business Programming with Spreadsheet
+CB2023,12799,S01,3,Main Campus ,Y,B ,1,80,N,14/01/2019 - 27/04/2019,T,09:00 - 11:50,LI,4307,"LI Xin JIANG Ruixiang",English,Mobile Applications for Business
+CB2023,13584,S02,3,Main Campus ,Y,B ,FULL,80,N,14/01/2019 - 27/04/2019,R,15:00 - 17:50,LI,4307,"JIANG Ruixiang LI Xin",English,Mobile Applications for Business
+CB2041,13173,C01,3,Main Campus ,Y,B ,2,110,N,14/01/2019 - 27/04/2019,F,15:00 - 17:50,LI,1507,LO Ming Sum S.,English,Applications of Game Theory to Business
+CB2041,14814,C02,3,Main Campus ,Y,B ,7,111,N,14/01/2019 - 27/04/2019,F,09:00 - 11:50,YEUNG,LT-6,LO Ming Sum S.,English,Applications of Game Theory to Business
+CB2041,14741,CA1,3,Main Campus ,Y,B ,10,10,N,14/01/2019 - 27/04/2019,F,15:00 - 17:50,LI,1507,LO Ming Sum S.,English,Applications of Game Theory to Business
+CB2041,14813,CA2,3,Main Campus ,Y,B ,10,10,N,14/01/2019 - 27/04/2019,F,09:00 - 11:50,YEUNG,LT-6,LO Ming Sum S.,English,Applications of Game Theory to Business
+CB3021,13034,C01,3,Main Campus ,Y,B ,16,60,N,14/01/2019 - 23/03/2019,T,15:00 - 17:50,YEUNG,B5-210,"TSO Kwok Fai G. FOK Shun Cheong V.",English,Business Discovery Methods
+CB3041,13276,S01,3,Main Campus ,Y,B ,Full,65,N,14/01/2019 - 27/04/2019,W,12:00 - 14:50,YEUNG,P4703,YIP David S O,English,Financial Statement Analysis
+CB3041,13277,S02,3,Main Campus ,Y,B ,2,65,N,14/01/2019 - 27/04/2019,F,09:00 - 11:50,YEUNG,P4703,YIP David S O,English,Financial Statement Analysis
+CB3041,13583,S03,3,Main Campus ,Y,B ,5,65,N,14/01/2019 - 27/04/2019,R,16:00 - 18:50,YEUNG,P4704,YIP David S O,English,Financial Statement Analysis
+CB3042,13148,S01,3,Main Campus ,Y,B ,1,75,N,14/01/2019 - 27/04/2019,R,09:00 - 11:50,BOC,LT401,DONG Qin,English & Chinese,China Business Environment
+CB3042,15027,S02,3,Main Campus ,Y,B ,FULL,75,N,14/01/2019 - 27/04/2019,R,12:00 - 14:50,YEUNG,P4302,DONG Qin,English & Chinese,China Business Environment
+CB3042,16029,SA1,3,Main Campus ,Y,B ,FULL,5,N,14/01/2019 - 27/04/2019,R,09:00 - 11:50,BOC,LT401,DONG Qin,English & Chinese,China Business Environment
+CB3042,16030,SA2,3,Main Campus ,Y,B ,FULL,5,N,14/01/2019 - 27/04/2019,R,12:00 - 14:50,YEUNG,P4302,DONG Qin,English & Chinese,China Business Environment

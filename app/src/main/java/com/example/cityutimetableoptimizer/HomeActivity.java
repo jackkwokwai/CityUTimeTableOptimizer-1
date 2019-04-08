@@ -233,11 +233,12 @@ public class HomeActivity extends AppCompatActivity implements SelectableViewHol
         List<String> courseMaster_s = new ArrayList<>();
 
         for (Course c : courses) {
-            if (courseMaster_s.contains(c.getCourseCode())) {
-                Log.v("Course added already ", c.getCourseCode());
+            if (courseMaster_s.contains(c.getCourseCode() + "_" + c.getCourseName())) {
+                Log.v("Course added already ", c.getCourseCode() + "_" + c.getCourseName());
             } else {
-                courseMaster_s.add(c.getCourseCode());
-                Log.v("Add course ", c.getCourseCode());
+                String text = c.getCourseCode() + "_" + c.getCourseName();
+                courseMaster_s.add(text);
+                Log.v("Add course ", c.getCourseCode() + "_" + c.getCourseName());
             }
         }
         return courseMaster_s;
@@ -298,8 +299,9 @@ public class HomeActivity extends AppCompatActivity implements SelectableViewHol
         String section = attributes[2];
         String day = attributes[11];
         String time = attributes[12];
+        String courseName = attributes[17];
 
-        return new Course(courseCode, crn, section, day, time);
+        return new Course(courseCode, crn, section, day, time, courseName);
     }
 
     /** Created by Mat, alertDialog **/

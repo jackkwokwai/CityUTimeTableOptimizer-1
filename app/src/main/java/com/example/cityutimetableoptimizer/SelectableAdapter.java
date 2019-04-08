@@ -32,7 +32,8 @@ public class SelectableAdapter extends RecyclerView.Adapter implements Selectabl
 
         SelectableViewHolder holder = (SelectableViewHolder) viewHolder;
         CourseMaster course = mCourseMaster.get(position);
-        holder.textView.setText(course.getCourseCode());
+        String text = course.getCourseCode() + " " + course.getCourseName();
+        holder.textView.setText(text);
 
         TypedValue value = new TypedValue();
         holder.textView.getContext().getTheme().resolveAttribute(android.R.attr.listChoiceIndicatorMultiple,
